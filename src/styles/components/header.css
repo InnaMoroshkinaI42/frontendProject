@@ -1,0 +1,25 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 15px;
+    padding-right: 123px;
+    padding-bottom: 15px;
+    padding-left: 104px;
+    align-items: center;
+    height: 50px;
+    
+}
+.header__name{
+
+}
+
+.header__language{
+    display:flex;
+    gap: 20px;
+}
+ 
+.page__header__wrapper{
+background: var(--color-orange);
+
+}
