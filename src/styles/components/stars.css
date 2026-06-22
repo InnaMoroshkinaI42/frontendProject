@@ -1,0 +1,12 @@
+.star {
+  display: flex;
+  gap: 4px;
+}
+
+.star--active {
+  color: var(--color-star);
+}
+
+.star--gray {
+  color: var(--text-tertiary);
+}

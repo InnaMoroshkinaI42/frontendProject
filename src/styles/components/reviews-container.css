@@ -1,0 +1,23 @@
+.reviews-container {
+  background: var(--background-accent);
+  position: relative;
+}
+
+.reviews-container__flex {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+}
+
+@media (--md-viewport) {
+  .reviews-container {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+
+  .reviews-container__flex {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    padding: 100px;
+  }
+}

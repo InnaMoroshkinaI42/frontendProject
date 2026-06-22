@@ -1,0 +1,30 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: transparent;
+}
+
+.buttonn--lg {
+}
+
+.button--on-card {
+  background-color: var(--background-brand);
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--text-on-accent);
+  padding: 12px 25px;
+  max-width: 140px;
+}
+
+.button--on-light {
+  border: 2px solid var(--background-brand);
+}
+
+.button--on-orange {
+  font-weight: 500;
+  background-color: var(--background-brand);
+  line-height: 125%;
+  text-transform: uppercase;
+  color: var(--text-on-accent);
+}

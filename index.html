@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="/src/styles/colors/components-tokens.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
 
@@ -14,60 +15,414 @@
     </style>
   </head>
   <body>
-
-
     <div class="page">
-      <header class="page__header">   
-        <div class="page__header__wrapper">
-        <div class="container">
-          <div class="header">
-             <div class="header__name">
-             <img src="/images/textHeader.svg" alt="">
-             </div>
-             <div class="header__language">
-              <img src="/public/images/Register.svg" alt="">
-              <img src="/images/Line 1.svg" alt=""> 
-              <img src="/images/Group 2.svg" alt="">
-             
-             </div>
-             
-           </div>
+      <header class="page__header">
+        <div class="page__header-wrapper">
+          <div class="container">
+            <div class="header">
+              <div class="header__name">Afterpay, Laybuy & Genoapay | Free Delivery New Zealand + Australia*</div>
+              <div class="header__language">
+                <img src="/public/images/Register.svg" alt="" />
+                <img src="/images/Line 1.svg" alt="" />
+                <img src="/images/Group 2.svg" alt="" />
+              </div>
+              <div class="header__hamburger">
+                <button class="js-menu-active">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-menu"
+                  >
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <div class="nav__logo">GOOD4ME.</div>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#">HOME</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">SHOP</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">FAQ'S</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">STOCKISTS</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">WHOLESALE</a></li>
+            <li class="nav__item"><a class="nav__link" href="#">CONTACT</a></li>
+          </ul>
+          <div class="nav__account">
+            <img src="/public/images/Vector.svg" alt="" />
+            <img src="/public/images/Group 3.svg" alt="" />
+          </div>
+        </nav>
+      </header>
+      <div class="mobile-menu">
+        <div class="mobile-menu__inner">
+          <nav>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">SHOP</a></li>
+              <li><a href="#">FAQ'S</a></li>
+              <li><a href="#">STOCKISTS</a></li>
+              <li><a href="#">WHOLESALE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
 
-
-        <nav class="nav">
-          <div class="nav__logo">
-            <img src="/images/Logo.svg" alt="">
-          </div>
-
-          <ul class="nav__list">   
-            <li class="nav__item"> <a class="nav__link" href="#">HOME</a></li>
-            <li class="nav__item"> <a class="nav__link" href="#">SHOP</a></li>
-            <li class="nav__item"> <a class="nav__link" href="#">FAQ'S</a></li>
-            <li class="nav__item"> <a class="nav__link" href="#">STOCKISTS</a></li>
-            <li class="nav__item"> <a class="nav__link" href="#">WHOLESALE</a></li>
-            <li class="nav__item"> <a class="nav__link" href="#">CONTACT</a></li>
-          </ul>
-
-          <div class="nav__account">
-            <img src="/public/images/Vector.svg" alt="">
-            <img src="/public/images/Group 3.svg" alt="">
-          </div>
-        </nav>
-
-      
-      </header>
-
-
       <div class="page__content">
-          content
-      </div>
-      <footer class="page__footer">
-          footer
-      </footer>
-    </div>
+        <div class="bunner">
+          <div class="container">
+            <div class="bunner__wrapper">
+              <div class="bunner__image">
+                <img class="bunner__img" src="/images/Tables4-no-bg-preview (carve.photos).png" />
+              </div>
+              <div class="bunner__content">
+                <h1 class="bunner__head">Good4Me</h1>
+                <h2 class="bunner__name">Apple Cider Vinegar</h2>
+                <p class="bunner__text">
+                  Good4Me Apple Cider Vinegar gummies are the newest addition to your morning health and well-being
+                  regime.
+                </p>
+                <button class="bunner__button button button--on-card">Shop Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="beauty-offer">
+          <h2 class="beauty-offer__title">GOOD4ME DEAL</h2>
+          <hr class="beauty-offer__line" />
+          <p class="beauty-offer__text">
+            Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all classy products today!
+          </p>
+        </div>
+
+        <div class="section-space section-space--bunner">
+          <div class="products-container container">
+            <div class="products-container__grid">
+              <div class="product">
+                <img class="product__img" src="/public/images/Tables1.png" alt="" />
+                <h3 class="product__info">MULTI-VITAMIN: EVERYDAY WELLNESS</h3>
+              </div>
+
+              <div class="product">
+                <img class="product__img" src="/images/Tables2.svg" alt="" />
+                <h3 class="product__info">FULL RANGE VALUE PACK (SAVE 33%)</h3>
+              </div>
+              <div class="product">
+                <img class="product__img" src="/public/images/Tables2.png" alt="" />
+                <h3 class="product__info">VITAMIN C: IMMUNITY SUPPORT</h3>
+              </div>
+              <div class="product">
+                <img class="product__img" src="/public/images/Tables4.svg" alt="" />
+                <h3 class="product__info">IRON: ENERGY SUPPORT</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-space">
+          <div class="servies container">
+            <div class="servies__list">
+              <div class="servies__item">
+                <img class="servies__img" src="/public/images/Group 18.svg" alt="" />
+                <h2 class="servies__info">WORLDWIDE SHIPPING</h2>
+                <p class="servies__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean</p>
+              </div>
+              <div class="servies__item">
+                <img class="servies__img" src="/public/images/Group2.svg" alt="" />
+                <h3 class="servies__info">30 DAYS GUARANTEE</h3>
+                <p class="servies__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean</p>
+              </div>
+              <div class="servies__item">
+                <img class="servies__img" src="/public/images/Group3.svg" alt="" />
+                <h3 class="servies__info">SECURED PAYMENTS</h3>
+                <p class="servies__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-space">
+          <div class="take-control container">
+            <div class="take-control__blok">
+              <div class="take-control__info">
+                <h2 class="take-control__title">TAKE CONTROL OF YOUR HEALTH</h2>
+                <p class="take-control__text">
+                  The Good4Me range has been formulated based on scientific & traditional evidence.
+                </p>
+                <p class="take-control__text">
+                  Our vitamins are here and ready to boost your mood, immunity and overall well-being!
+                </p>
+                <p class="take-control__text">Made in New Zealand from local and imported ingredients.</p>
+                <button class="take-control__button button button--on-light">BROWSE OUR RANGE</button>
+              </div>
+            </div>
+            <div class="take-control__grid">
+              <div class="take-control__span-2">
+                <img class="take-control__img" src="/public/images/take-control2.svg" alt="" />
+              </div>
+
+              <div class="take-control__span-3">
+                <img class="take-control__img" src="/public/images/Rectangle 16.svg" alt="" />
+              </div>
+
+              <div class="take-control__span-1">
+                <img class="take-control__img" src="/public/images/take-control1.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-space">
+          <div class="products-container container">
+            <h3 class="products-container__title">OUR PRODUCTS ARE</h3>
+            <div class="products-container__grid">
+              <div class="product">
+                <img class="product__img" src="/images/ourPhoto1.svg" alt="" />
+                <h3 class="product__vitamin">MULTI-VITAMIN (3 MONTH SUPPLY)</h3>
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+
+              <div class="product">
+                <img class="product__img" src="/images/ourPhoto2.svg" alt="" />
+                <h3 class="product__vitamin">VITAMIN C: IMMUNITY SUPPORT</h3>
+
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+              <div class="product">
+                <img class="product__img" src="/images/ourPhoto3.svg" alt="" />
+                <h3 class="product__vitamin">MULTI-VITAMIN (3 MONTH SUPPLY)</h3>
+
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+              <div class="product">
+                <img class="product__img" src="/images/ourPhoto4.svg" alt="" />
+                <h3 class="product__vitamin">APPLE CIDER VINEGAR (3 MONTH SUPPLY)</h3>
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+            </div>
+            <button class="products-container__button button button--on-light">VIEW ALL PRODUCTS</button>
+          </div>
+        </div>
+
+        <div class="section-space section-space--reviews">
+          <div class="reviews-container container">
+            <img class="reviews__top-edge" src="/public/images/FonPeperV.svg" alt="" />
+            <div class="reviews-container__flex">
+              <div class="reviews__content">
+                <div class="reviews__info">
+                  <h1 class="reviews__title">REAL REVIEWS</h1>
+                  <h2 class="reviews__subtitle">REAL RESULTS</h2>
+                  <div class="rating">
+                    <div class="rating__stars star">
+                      <span class="rating__star star star--active">★</span>
+                      <span class="rating__star star star--active">★</span>
+                      <span class="rating__star star star--active">★</span>
+                      <span class="rating__star star star--active">★</span>
+                      <span class="rating__star star star--gray">★</span>
+                    </div>
+                  </div>
+                  <p class="reviews__text">
+                    “We have perfected our formulas over time, based on your feedback. Check out hundreds of reviews on
+                    our website.We can't wait until you are a part of our Good4Me Family.”
+                  </p>
+                  <p class="reviews__author">_Chloe H.</p>
+                  <div class="reviews__buttons">
+                    <button class="reviews__btn button button--on-light"><</button>
+                    <button class="reviews__btn button button--on-light">></button>
+                  </div>
+                </div>
+                <img class="reviews__photo" src="/images/nails.svg" alt="Product" />
+              </div>
+              <img class="reviews__bottom-edge" src="/images/FonPeperN.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="section-space section-space--shop">
+          <div class="products-container container">
+            <h3 class="products-container__title">SHOP ALL</h3>
+            <div class="products-container__grid">
+              <div class="product">
+                <img class="product__img" src="/images/TablesSHOP1.svg" alt="" />
+                <h3 class="product__vitamin">**PRE-ORDER** HAIR, SKIN & NAILS (5 MONTH SUPPLY)</h3>
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+
+              <div class="product">
+                <img class="product__img" src="/images/TablesSHOP2.svg" alt="" />
+                <h3 class="product__vitamin">DETOX + BLOAT SUPPORT VALUE PACK</h3>
+
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+              <div class="product">
+                <img class="product__img" src="/images/TablesSHOP3.svg" alt="" />
+                <h3 class="product__vitamin">PROBIOTICS: GUT HEALTH + BLOAT SUPPORT</h3>
+
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+              <div class="product">
+                <img class="product__img" src="/images/TablesSHOP4.svg" alt="" />
+                <h3 class="product__vitamin">APPLE CIDER VINEGAR</h3>
+                <div class="product__cost">
+                  <h3 class="product__cost product__cost--new">$39.95 NZD</h3>
+                  <h3 class="product__cost product__cost--old">$199.75 NZD</h3>
+                </div>
+              </div>
+            </div>
+            <button class="products-container__button button button--on-light">VIEW ALL PRODUCTS</button>
+          </div>
+        </div>
+
+        <div class="section-space section-space--latest">
+          <div class="products-container container">
+            <h3 class="products-container__title">LATEST NEWSL</h3>
+            <div class="products-container__latest-news">
+              <div class="product">
+                <img class="product__img" src="/images/image 18.svg" alt="" />
+                <h3 class="product__data">August 26, 2020</h3>
+                <h3 class="product__title">WE DONATE ONE WEEKS SUPPLY</h3>
+                <h3 class="product__text">
+                  We care about New Zealand children, and we want to support our community by providing our children in
+                  need with necessary vitamins to improve....
+                </h3>
+                <button class="products__button button button--on-orange">Read more</button>
+              </div>
+
+              <div class="product">
+                <img class="product__img" src="/images/image 19.svg" alt="" />
+                <h3 class="product__data">August 26, 2020</h3>
+                <h3 class="product__title">WE DONATE ONE WEEKS SUPPLY</h3>
+                <h3 class="product__text">
+                  We care about New Zealand children, and we want to support our community by providing our children in
+                  need with necessary vitamins to improve....
+                </h3>
+                <button class="products__button button button--on-orange">Read more</button>
+              </div>
+              <div class="product">
+                <img class="product__img" src="/images/image 19 (1).svg" alt="" />
+                <h3 class="product__data">August 26, 2020</h3>
+                <h3 class="product__title">WE DONATE ONE WEEKS SUPPLY</h3>
+                <h3 class="product__text">
+                  We care about New Zealand children, and we want to support our community by providing our children in
+                  need with necessary vitamins to improve....
+                </h3>
+                <button class="products__button button button--on-orange">Read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-container">
+          <h3 class="products-container__title-good">#GOOD4ME</h3>
+          <div class="products-container__good-image">
+            <img class="product__img-good" src="/images/image 35.svg" alt="" />
+            <img class="product__img-good" src="/images/image 36.svg" alt="" />
+            <img class="product__img-good" src="/images/image 24.svg" alt="" />
+            <img class="product__img-good" src="/images/image 37.svg" alt="" />
+            <img class="product__img-good" src="/images/image 38.svg" alt="" />
+            <img class="product__img-good" src="/images/image 32.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="section-space section-space--footer">
+        <footer class="page__footer footer">
+          <img class="footer__top-edge" src="/public/images/FonPeperV.svg" alt="" />
+          <div class="container">
+            <div class="footer__wrapper">
+              <div class="footer-nav">
+                <div class="footer__logo">GOOD4ME.</div>
+                <p class="footer__description">
+                  Good health is important, so all of our products have been carefully designed to bring out the best in
+                  you.
+                </p>
+              </div>
+              <div class="footer-nav__keep">
+                <div class="footer-nav__keep-text">
+                  <div class="footer-nav__title">Keep In Touch</div>
+                  <p class="footer__description-keep">
+                    Subscribe to receive new product updates, be the first to know about sales, and more.
+                  </p>
+                </div>
+                <div class="footer__email-field">
+                  <div class="footer__email-label">Enter your email address</div>
+                  <div class="footer__subscribe">SUBSCRIBE</div>
+                </div>
+                <div class="footer__underline"></div>
+              </div>
+              <div class="footer-nav__more">
+                <div class="footer-nav__title-more">MORE INFO</div>
+                <ul class="footer-nav__list">
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">Shipping & Delivery</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">Refund Policy</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">Partner Program</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">Recently viewed</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">Wholesale Portal</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">You Buy, We Donate</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">Privacy Policy</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="#">Terms & Conditions</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer__container">
+              <div class="footer__bottom">
+                <div class="footer__icon">
+                  <img class="footer__icon-image" src="/public/images/iconfooter.svg" alt="" />
+                  <img class="footer__icon-image" src="/public/images/iconfooter(1).svg" alt="" />
+                  <img class="footer__icon-image" src="/public/images/Group.svg" alt="" />
+                  <img class="footer__icon-image" src="/public/images/Group (1).svg" alt="" />
+                  <img class="footer__icon-image" src="/public/images/Group (2).svg" alt="" />
+                  <div class="footer__text">
+                    <div class="footer__bottom-text">© 2021,</div>
+                    <div class="footer__bottom-text-orage">GOOD4ME.</div>
+                    <div class="footer__bottom-text">Powered by Shopify</div>
+                  </div>
+                  <div class="footer__bottom-image">
+                    <img src="/public/images/Screenshot-2021-01-26-at-2.46 1.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>

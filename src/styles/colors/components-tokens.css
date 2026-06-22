@@ -1,0 +1,30 @@
+:root {
+  /* Button components */
+  --button-primary-bg: var(--background-brand);
+  --button-primary-text: var(--text-on-accent);
+  --button-secondary-border: var(--text-accent);
+
+  /* Card components */
+  --card-background: var(--background-default);
+  --product-info-text: var(--text-primary);
+  --product-cost-new: var(--text-accent);
+  --product-cost-old: var(--text-tertiary);
+
+  /* Banner components */
+  --banner-background: var(--background-accent);
+  --banner-head: var(--text-accent);
+  --banner-title: var(--text-primary);
+  --banner-text: var(--text-secondary);
+
+  /* Reviews components */
+  --reviews-title: var(--text-primary);
+  --reviews-text: var(--text-tertiary);
+  --reviews-author: var(--text-accent);
+
+  /* Header components */
+  --header-background: var(--background-brand);
+
+  /* Stars components */
+  --star-active: var(--color-star);
+  --star-inactive: var(--text-tertiary);
+}

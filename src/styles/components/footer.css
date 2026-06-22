@@ -1,0 +1,250 @@
+.footer {
+  background: var(--background-secondary);
+  color: var(--text-inverse);
+}
+
+.footer__wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 20px;
+  padding-left: 71px;
+}
+
+.footer__logo {
+  font-size: 18px;
+  line-height: 162%;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.footer__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 162%;
+  text-align: center;
+  color: var(--text-secondary);
+  padding-top: 10px;
+}
+
+.footer__description-keep {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 162%;
+  text-align: center;
+  color: var(--text-secondary);
+  padding-top: 10px;
+}
+
+.footer__email-field {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer__email-label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 162%;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.footer__underline {
+  border: 2px solid var(--text-primary);
+  height: 0;
+}
+
+.footer__subscribe {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 162%;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--text-accent);
+}
+
+.footer__container {
+  background: var(--background-secondary);
+  border: 1px solid var(--color-gray9d);
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  padding-bottom: 22px;
+}
+
+.footer__bottom {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.footer__icon {
+  display: flex;
+  gap: 20px;
+  padding-top: 27px;
+  padding-left: 16px;
+}
+
+.footer__bottom-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  color: var(--text-primary);
+}
+
+.footer__text {
+  display: flex;
+  padding-left: 50px;
+  gap: 5px;
+}
+
+.footer__bottom-text-orage {
+  color: var(--text-accent);
+}
+
+.footer__bottom-image {
+  display: flex;
+  padding-left: 160px;
+}
+
+@media (width <= 1279px) {
+  .footer__wrapper {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .footer__logo,
+  .footer__description,
+  .footer__description-keep,
+  .footer__email-label,
+  .footer__subscribe {
+    text-align: center;
+  }
+
+  .footer__email-field {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer__container {
+    padding: 20px;
+  }
+
+  .footer__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer__icon {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 0 0;
+  }
+
+  .footer__text {
+    padding-left: 0;
+    justify-content: center;
+    order: 1;
+  }
+
+  .footer__bottom-image {
+    padding-left: 0;
+    justify-content: center;
+    order: 2;
+  }
+
+  .footer__icon-image:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+@media (--md-viewport) and (width <= 1279px) {
+  .footer__wrapper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+    padding: 60px 40px;
+  }
+
+  .footer__icon {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+
+@media (--xl-viewport) {
+  .footer__wrapper {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    padding-left: 71px;
+  }
+
+  .footer__logo {
+    font-size: 18px;
+  }
+
+  .footer__description {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .footer__description-keep {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .footer__email-field {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .footer__email-label {
+    font-size: 14px;
+    padding-right: 215px;
+  }
+
+  .footer__subscribe {
+    font-size: 14px;
+  }
+
+  .footer__container {
+    padding-bottom: 22px;
+  }
+
+  .footer__bottom {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+  }
+
+  .footer__icon {
+    gap: 20px;
+    padding-top: 27px;
+    padding-left: 16px;
+  }
+
+  .footer__bottom-text {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer__text {
+    padding-left: 350px;
+  }
+
+  .footer__bottom-image {
+    padding-left: 160px;
+  }
+}
+
+@media (width <=400px) {
+  .footer__text {
+    display: block;
+    padding-left: 0;
+  }
+}

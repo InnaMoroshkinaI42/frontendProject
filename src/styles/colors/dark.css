@@ -1,6 +1,15 @@
 :root {
   color-scheme: dark;
 
-  --color-primary: var(--color-black);
-  --color-secondary: var(--color-white);
+  --background-default: var(--color-dark-bg);
+  --background-secondary: var(--color-dark-card);
+  --background-accent: var(--color-pink-warm);
+  --background-brand: var(--color-orange-bright);
+
+  /* Text group */
+  --text-primary: var(--color-white);
+  --text-secondary: var(--color-light-gray);
+  --text-tertiary: var(--color-dark-gray);
+  --text-accent: var(--color-orange-bright);
+  --text-on-accent: var(--color-white);
 }

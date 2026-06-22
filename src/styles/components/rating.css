@@ -1,0 +1,15 @@
+.rating {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.rating__stars {
+}
+
+@media (--xl-viewport) {
+  .rating {
+    padding-bottom: 24px;
+    justify-content: flex-start;
+  }
+}

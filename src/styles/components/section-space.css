@@ -1,0 +1,49 @@
+.section-space {
+  padding-top: 69px;
+}
+
+.section-space--bunner {
+  padding-top: 18px;
+}
+
+.section-space--shop {
+  padding-top: 41px;
+}
+
+.section-space--latest {
+  padding-top: 60px;
+}
+
+.section-space--reviews {
+  padding-top: 55px;
+}
+
+.section-space--footer {
+  padding-top: 70px;
+}
+
+@media (--lg-viewport) {
+  .section-space {
+    padding-top: 138px;
+  }
+
+  .section-space--bunner {
+    padding-top: 36px;
+  }
+
+  .section-space--shop {
+    padding-top: 82px;
+  }
+
+  .section-space--latest {
+    padding-top: 118px;
+  }
+
+  .section-space--reviews {
+    padding-top: 111px;
+  }
+
+  .section-space--footer {
+    padding-top: 136px;
+  }
+}

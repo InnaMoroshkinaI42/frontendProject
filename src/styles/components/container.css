@@ -7,29 +7,15 @@
   max-width: 100%;
 }
 
-
-@media (--sm-viewport) {
-  .container {
-    max-width: 576px;
-  }
-}
-
 @media (--md-viewport) {
   .container {
-    max-width: 768px;
     padding-left: 16px;
     padding-right: 16px;
   }
 }
 
-@media (--lg-viewport) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
 @media (--xl-viewport) {
   .container {
-    max-width: 1707px;
+    max-width: 1560px;
   }
 }

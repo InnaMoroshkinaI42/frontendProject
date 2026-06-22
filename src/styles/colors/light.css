@@ -1,6 +1,16 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+  /* Background group */
+  --background-default: var(--color-white);
+  --background-secondary: var(--color-beig);
+  --background-accent: var(--color-pink);
+  --background-brand: var(--color-orange);
+
+  /* Text group */
+  --text-primary: var(--color-black);
+  --text-secondary: var(--color-text);
+  --text-tertiary: var(--color-gray);
+  --text-accent: var(--color-orange);
+  --text-on-accent: var(--color-white);
 }
